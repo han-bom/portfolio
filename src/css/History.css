@@ -1,0 +1,47 @@
+.history {
+    margin-top: 50px;
+}
+
+.history h2 {
+    margin-bottom: 10px;
+}
+
+.history p {
+    padding-top: 5px;
+}
+
+.history details {
+    margin-top: 30px;
+}
+
+.history summary {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.history .language,
+.history .detail {
+    margin-top: 20px;
+}
+
+.history .language ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history .language li {
+    margin: 5px 5px;
+    padding: 5px 20px;
+    background: lightblue;
+    border-radius: 10px;
+}
+
+.history .detail li {
+    list-style: disc;
+    margin-left: 25px;
+    padding: 5px 10px;
+}
+
+.history .detail li li {
+    list-style: circle;
+}
