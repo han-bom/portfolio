@@ -8,28 +8,28 @@ class Design extends Component {
            <section className="design">
                <h2>Design</h2>
                <div className="list">
-                   <article>
+                   <article onClick={e => this.props.popupSetContents(e.currentTarget)}>
                         <img src="/img/design/01_desktop.jpg"/>
                    </article>
-                    <article>
+                    <article onClick={e => this.props.popupSetContents(e.currentTarget)}>
                         <img src="/img/design/02_desktop.jpg" />
                     </article>
-                    <article>
+                    <article onClick={e => this.props.popupSetContents(e.currentTarget)}>
                         <img src="/img/design/04.jpg" />
                     </article>
-                    <article>
+                    <article onClick={e => this.props.popupSetContents(e.currentTarget)}>
                         <img src="/img/design/05.png" />
                     </article>
-                    <article>
+                    <article onClick={e => this.props.popupSetContents(e.currentTarget)}>
                         <img src="/img/design/06.png" />
                     </article>
-                    <article>
+                    <article onClick={e => this.props.popupSetContents(e.currentTarget)}>
                         <img src="/img/design/07.png" />
                     </article>
-                    <article>
+                    <article onClick={e => this.props.popupSetContents(e.currentTarget)}>
                         <img src="/img/design/08.png" />
                     </article>
-                    <article>
+                    <article onClick={e => this.props.popupSetContents(e.currentTarget)}>
                         <img src="/img/design/09.png" />
                     </article>
                </div>

@@ -48,3 +48,7 @@ address {
 .container.small {
   max-width: 1024px;
 }
+
+.scroll-hide {
+  overflow: hidden;
+}
