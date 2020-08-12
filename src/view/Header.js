@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import '../css/Header.css';
+
 class Header extends Component {
     render() {
         return (
@@ -16,8 +18,8 @@ class Header extends Component {
                             <h2>Fullstack Developer / Web Designer</h2>
                         </div>
                         <address>
-                            <h3>Tel. <a href="tel:+821045034646">010 4503 4646</a></h3>
-                            <h3>Email. <a href="mailto:livet@kakao.com">livet@kakao.com</a></h3>
+                            <h2>Tel. <a href="tel:+821045034646">010 4503 4646</a></h2>
+                            <h2>Email. <a href="mailto:livet@kakao.com">livet@kakao.com</a></h2>
                         </address>
                     </div>
                 </div>
