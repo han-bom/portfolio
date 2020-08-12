@@ -1,0 +1,30 @@
+.design {
+    margin-top: 50px;
+}
+
+.design .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.design .list article {
+    flex: 1 0 21%;
+    max-height: 190px;
+    margin: 10px;
+    overflow: hidden;
+    background: black;
+    cursor: pointer;
+}
+
+.design .list article img {
+    max-width: 100%;
+    object-fit: contain;
+    opacity: 0.5;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.design .list article:hover img {
+    transform: scale(1.1);
+    opacity: 1;
+}
