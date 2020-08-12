@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import '../css/Design.css';
+
 class Design extends Component {
     render() {
         return (
