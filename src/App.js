@@ -4,6 +4,7 @@ import Header from './view/Header';
 import History from './view/History';
 import Design from './view/Design';
 import Popup from './view/Popup';
+import Develop from './view/Develop'
 
 import './css/App.css';
 
@@ -48,6 +49,7 @@ class App extends Component {
 				<div className="container">
 					<History />
 					<Design popupSetContents={this.popupSetContents} />
+					<Develop />
 				</div>
 				<Popup show={this.state.popup.show} contents={this.state.popup.contents} close={this.popupClose} />
 			</div>
